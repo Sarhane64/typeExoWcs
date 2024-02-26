@@ -1,4 +1,4 @@
-function hello(name: string) {
+function hellos(name: string) {
   console.log("Hello" + name);
 }
 
