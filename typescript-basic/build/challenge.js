@@ -1,7 +1,7 @@
 "use strict";
 const prettyPrintWilder = (users) => {
     users.map((user) => {
-        console.log(`${user.name} is ${user.age} years old`);
+        console.log(`${user.name} is ${user.age || user.birthday} years old`);
     });
 };
 const wilders = [];
